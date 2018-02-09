@@ -1,5 +1,5 @@
 class Answers
-  attr_accessor :@text
+  attr_accessor :text
   def initialize(text)
     @text = text
   end
