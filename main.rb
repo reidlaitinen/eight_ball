@@ -6,6 +6,28 @@
 # git push origin/master
 require_relative 'answers.rb'
 
+answer1 = Answers.new("")
+answer2 = Answers.new("")
+answer3 = Answers.new("")
+answer4 = Answers.new("")
+answer5 = Answers.new("")
+answer6 = Answers.new("")
+answer7 = Answers.new("")
+answer8 = Answers.new("")
+answer9 = Answers.new("")
+answer10 = Answers.new("")
+answer11 = Answers.new("")
+answer12 = Answers.new("")
+answer13 = Answers.new("")
+answer14 = Answers.new("")
+answer15 = Answers.new("")
+answer16 = Answers.new("")
+answer17 = Answers.new("")
+answer18 = Answers.new("")
+answer19 = Answers.new("")
+answer20 = Answers.new("")
+
+
 
 
 def main_menu
