@@ -1,6 +1,7 @@
 class Answers
   
   def initialize(text)
+    attr_accessor :@text
     @text = text
   end
 
@@ -11,5 +12,5 @@ class Answers
   def get_text(text)
     return @text
   end
-  
+
 end
