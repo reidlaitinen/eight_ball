@@ -8,7 +8,7 @@ class Answers
     @text = text
   end
 
-  def get_text(text)
+  def get_text
     return @text
   end
 
