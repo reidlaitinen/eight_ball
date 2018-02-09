@@ -1,7 +1,6 @@
 class Answers
-  
+  attr_accessor :@text
   def initialize(text)
-    attr_accessor :@text
     @text = text
   end
 
