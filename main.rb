@@ -6,28 +6,31 @@
 # git push origin/master
 require_relative 'answers.rb'
 
-answer1 = Answers.new("")
-answer2 = Answers.new("")
-answer3 = Answers.new("")
-answer4 = Answers.new("")
-answer5 = Answers.new("")
-answer6 = Answers.new("")
-answer7 = Answers.new("")
-answer8 = Answers.new("")
-answer9 = Answers.new("")
-answer10 = Answers.new("")
-answer11 = Answers.new("")
-answer12 = Answers.new("")
-answer13 = Answers.new("")
-answer14 = Answers.new("")
-answer15 = Answers.new("")
-answer16 = Answers.new("")
-answer17 = Answers.new("")
-answer18 = Answers.new("")
-answer19 = Answers.new("")
-answer20 = Answers.new("")
+answer1 = Answers.new("It is certain")
+answer2 = Answers.new("It is decidedly so")
+answer3 = Answers.new("Without a doubt")
+answer4 = Answers.new("Yes definitely")
+answer5 = Answers.new("You may rely on it")
+answer6 = Answers.new("As I see it, yes")
+answer7 = Answers.new("Most likely")
+answer8 = Answers.new("Outlook good")
+answer9 = Answers.new("Yes")
+answer10 = Answers.new("Signs point to yes")
+answer11 = Answers.new("Reply hazy try again")
+answer12 = Answers.new("Ask again later")
+answer13 = Answers.new("Better not tell you now")
+answer14 = Answers.new("Cannot predict now")
+answer15 = Answers.new("Concentrate and ask again")
+answer16 = Answers.new("Don't count on it")
+answer17 = Answers.new("My reply is no")
+answer18 = Answers.new("My sources say no")
+answer19 = Answers.new("Outlook not so good")
+answer20 = Answers.new("Very doubtful")
 
-
+@answers = [answer1, answer2, answer3, answer4, answer5, 
+            answer6, answer7, answer8, answer9, answer10,
+            answer11, answer12, answer13, answer14, answer15, 
+          answer16, answer17, answer18, answer19, answer20]
 
 
 def main_menu
