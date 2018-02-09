@@ -61,6 +61,7 @@ end
 
 def eight_ball
     puts "Ask the EightBall"
+    puts "Type 'quit' to Quit"
     ask = gets.chomp
     puts @answers.sample.get_text
      
