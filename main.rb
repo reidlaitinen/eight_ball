@@ -68,6 +68,7 @@ def eight_ball
         main_menu
     else
         puts @answers.sample.get_text
+        eight_ball
     end
   
 end
