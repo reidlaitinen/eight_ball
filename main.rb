@@ -36,24 +36,36 @@ def main_menu
     puts "====================="
     puts " [1] Enter EightBall"
     puts " [2] Exit EightBall"
-    choice = gets.strip.
+    choice = gets.strip
 
     case choice
         when "1"
             eight_ball
         when "2"
-            puts "========================="
-            puts "You Have Exited EightBall"
-            puts "========================="
-            exit
+            exit_menu
         else
             puts "Invaild Input"
     end
 
 end
 
+def exit_menu
+    puts "========================="
+    puts "You Have Exited EightBall"
+    puts "========================="
+    exit
+end
+
 def eight_ball
-    puts ""
+    puts "Ask the EightBall"
+    ask = gets.chomp
+
+    
+
+    if ask.downcase == "quit"
+        main_menu
+    end
+
 end
 
 main_menu
