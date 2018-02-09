@@ -59,9 +59,8 @@ end
 def eight_ball
     puts "Ask the EightBall"
     ask = gets.chomp
-
-    
-
+    puts @answers.sample.get_text
+     
     if ask.downcase == "quit"
         main_menu
     end
